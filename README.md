@@ -18,5 +18,5 @@
 - python manage.py migrate
  
  # Developer's Guide / wiki -
- - Check wiki for live site and developer's refrences
+ - Check wiki for live site and developer's references
  -  https://github.com/detkartik/covid-19/wiki
