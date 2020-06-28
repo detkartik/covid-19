@@ -1,7 +1,8 @@
 # covid-19
-
-- Covid 19 Tracker App deployment to server
-- This is one page application developed to track the daily corona virus cases
+-  Welcome to the covid-19 wiki!
+- This is one page application to fetch live data for covid 19 cases 
+#
+[covid19](http://detkartik.pythonanywhere.com/)
 - Categorized into ALL Cases, Recovered, Death,New Cases and Critical Cases
 
 # Purpose/Motivation -
