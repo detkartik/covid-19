@@ -1,7 +1,6 @@
 # covid-19
 -  Welcome to the covid-19 wiki!
 - This is one page application to fetch live data for covid 19 cases 
-#
 [covid19](http://detkartik.pythonanywhere.com/)
 - Categorized into ALL Cases, Recovered, Death,New Cases and Critical Cases
 
