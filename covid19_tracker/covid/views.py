@@ -33,6 +33,6 @@ def home(request):
         'new': data_init['cases']['new'],
         'critical': data_init['cases']['critical'],
     }
-#     context gets a dict of 'all','recovered','new','critical cases'
+    # context gets a dict of 'all','recovered','new','critical cases'
     
     return render(request, 'index.html', context)
