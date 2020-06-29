@@ -1,5 +1,5 @@
 # covid-19
--  Welcome to the covid-19 wiki!
+-  Welcome to the covid-19 Django App
 - This is one page application to fetch live data for covid 19 cases 
 - Categorized into ALL Cases, Recovered, Death,New Cases and Critical Cases
 
