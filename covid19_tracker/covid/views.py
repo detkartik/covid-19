@@ -8,6 +8,7 @@ def home(request):
      fetch the details and display accordingly 
     '''
     url = "https://covid-193.p.rapidapi.com/statistics"
+    #     Getting data from api with following url
 
     # querystring is fetching country wise data and storing in dict
     querystring = {"country":"India"}
@@ -32,5 +33,6 @@ def home(request):
         'new': data_init['cases']['new'],
         'critical': data_init['cases']['critical'],
     }
+#     context gets a dict of 'all','recovered','new','critical cases'
     
     return render(request, 'index.html', context)
