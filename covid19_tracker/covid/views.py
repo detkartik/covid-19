@@ -9,7 +9,6 @@ def home(request):
      fetch the details and display accordingly 
     '''
     url = "https://covid-193.p.rapidapi.com/statistics"
-    #     Getting data from api with following url
 
     # querystring is fetching country wise data and storing in dict
     querystring = {"country": "India"}
@@ -29,11 +28,12 @@ def home(request):
 
     # context stores the data in the json formate which can be rendered by django templates
     context = {
+        # context gets a dict of 'all','recovered','new','critical cases'
         'all': data_init['cases']['total'],
         'recovered': data_init['cases']['recovered'],
         'deaths': data_init['deaths']['total'],
         'new': data_init['cases']['new'],
     }
-    # context gets a dict of 'all','recovered','new','critical cases'
+    # context gets a dict of 'all','recovered','new'
 
     return render(request, 'index.html', context)
